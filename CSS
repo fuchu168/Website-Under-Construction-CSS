@@ -1,0 +1,135 @@
+Website-Under-Construction/CSSsection,header,footer,aside,article,nav{
+
+display: block;
+}
+
+
+
+
+body{
+
+  background:#f8eedf url(../img/pl.jpg)repeat-x;
+}
+
+ 
+a{
+text-decoration: none;
+color: black;
+
+}
+
+a:hover{
+text-decoration:underline;
+
+}
+p{
+font-size: 12px;
+line-height: 18px;
+font-size: verdana,arial;
+
+
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+font-family: myriad-pro,
+helvetica,arial,sans-serif,
+text-transform:uppercase;
+
+
+font-weight: normal;
+}
+ h3{
+   color:#3da2b4;
+text-shadow:0 -1px 0
+#231914;
+font-size: 24px;
+line-height: 24px
+;
+
+ }
+  ul{
+
+    overflow: hidden;
+
+  }
+ li{
+
+ 	margin-left: 0px;
+ 	list-style:none;}
+ 
+.rounded{
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+
+}
+
+ }
+ .container_24{
+
+padding-left:5px;
+padding-right: 5px;
+
+
+ }
+
+
+
+
+
+
+ header{
+    background: red
+    overflow:hidden;
+    color:white;
+
+}
+
+header h1{
+	padding-top: 38px;
+	text-shadow:0 -1px 0
+	#d89539;
+	font-size: 30px;
+
+}
+
+
+
+header nav{
+
+
+	overflow: hidden;
+	float: left;
+	margin-top: 5px;
+	height: 58px
+	line-height:58px;
+
+}
+
+header nav li{
+
+	float: left;
+	margin-right: 25px;
+}
+
+
+header a{
+font-size: 16px;
+color:white;
+text-shadow:0 1px 0 #281f1b;
+font-size: 16px;
+}
+header a:hover,nav .selected{
+background: #EFB04F;
+border-bottom: none;
+padding-left: 10px;
+margin-right:-10px;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius: 1px solid #FCCC85;
+text-shadow:0 0 0 #281f1b;
+text-decoration: none;
+-webkit-transition:background 1s;
+
